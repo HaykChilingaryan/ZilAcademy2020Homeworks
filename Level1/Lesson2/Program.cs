@@ -10,6 +10,7 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(10+1);
         }
     }
 }
