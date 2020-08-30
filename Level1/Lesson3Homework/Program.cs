@@ -25,9 +25,7 @@ namespace Lesson3Homework
             Console.WriteLine(res);
 
             //Homework 3.2
-
             byte c = 2;
-
             checked
             {
                 unchecked
@@ -44,7 +42,6 @@ namespace Lesson3Homework
             //Homework 3.3 
             float f = 3.54f;
             float r = 1.77f;
-
             float resf = f + r;
             Console.WriteLine(resf);
              resf = f * r;
@@ -53,8 +50,6 @@ namespace Lesson3Homework
             Console.WriteLine(resf);
             resf = f - r;
             Console.WriteLine(resf);
-
-
         }
     }
 }
