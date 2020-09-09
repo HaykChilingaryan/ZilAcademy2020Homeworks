@@ -101,15 +101,18 @@ namespace Lesson7Homework
             }
         }
 
-        //static double Sum12(int n)
-        //{
-        //    double sum = 0;
-        //    for (int i = 1; i < n; i++)
-        //    {
-        //        int k = n / 2;
-
-        //    }
-        //}
+        static double Sum12(int n)
+        {
+            double sum = 0;
+            double k = 1.1;
+            for (int i = 0; i <=  n; i++)
+            {
+                
+                sum += k;
+                k = -(k + i / 10);
+            }
+            return sum;
+        }
 
         //  static int FindThatNUmber15(int n)
         //  {
@@ -210,8 +213,8 @@ namespace Lesson7Homework
             //LeastOddNumber17(4444444);
             //SumOfOdds18(7279172);
             //SumOfEvens19(7279172);
-            MinMaxsquared20(7279172);
-
+            //MinMaxsquared20(7279172);
+            Console.WriteLine(Sum12(4));
         }
     }
 }
